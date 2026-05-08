@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Scrape progress (regenerated on run, not part of repo state)
+data/athleteagent_progress.json
+data/athleteagent_progress.json.tmp
+data/athleteagent_index.csv
+
+# OS
+Thumbs.db
